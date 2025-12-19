@@ -1,7 +1,7 @@
-package com.app.progettoispw202324;
+package com.app.ispw2025;
 
 import boundary.BoundaryLogin;
-import com.app.progettoispw202324.allertbox.AllertBoxNumeroOrdini;
+import com.app.ispw2025.allertbox.AllertBoxNumeroOrdini;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

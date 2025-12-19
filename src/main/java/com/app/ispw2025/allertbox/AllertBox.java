@@ -1,7 +1,7 @@
-package com.app.progettoispw202324.allertbox;
+package com.app.ispw2025.allertbox;
 
 import boundary.BoundaryBasicController;
-import com.app.progettoispw202324.MenuController;
+import com.app.ispw2025.MenuController;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;

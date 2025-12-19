@@ -1,7 +1,7 @@
-package com.app.progettoispw202324;
+package com.app.ispw2025;
 
 import boundary.BoundaryUserControl;
-import com.app.progettoispw202324.util.PrintArticoli;
+import com.app.ispw2025.util.PrintArticoli;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;

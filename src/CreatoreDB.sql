@@ -1,12 +1,12 @@
--- Active: 1706304468707@@127.0.0.1@3306@stefyispw
-DROP DATABASE IF EXISTS stefyispw;
+-- Active: 1706304468707@@127.0.0.1@3306@simoispw
+DROP DATABASE IF EXISTS simoispw;
 
 
-CREATE DATABASE stefyispw
+CREATE DATABASE simoispw
     DEFAULT CHARACTER SET = 'utf8mb4';
 
 
-USE stefyispw;
+USE simoispw;
 
 -- -----------------------------------------------------
 -- Table `LOGIN`
@@ -86,12 +86,12 @@ CREATE TABLE IF NOT EXISTS `ORDINI` (
   INDEX `negozio_idx` (`idNegozio` ASC) ,
   CONSTRAINT `utente`
     FOREIGN KEY (`idUtente`)
-    REFERENCES `stefyispw`.`LOGIN` (`ID`)
+    REFERENCES `simoispw`.`LOGIN` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `negozio`
     FOREIGN KEY (`idNegozio`)
-    REFERENCES `stefyispw`.`LOGIN` (`ID`)
+    REFERENCES `simoispw`.`LOGIN` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
@@ -111,7 +111,7 @@ DROP USER IF EXISTS login;
 SET SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 CREATE USER 'login' IDENTIFIED BY 'login';
 
-GRANT SELECT ON TABLE `myStefy`.`LOGIN` TO 'login';
+GRANT SELECT ON TABLE `mySimo`.`LOGIN` TO 'login';
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

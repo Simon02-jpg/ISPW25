@@ -1,6 +1,6 @@
-package com.app.progettoispw202324;
+package com.app.ispw2025;
 
-import com.app.progettoispw202324.util.Comandi;
+import com.app.ispw2025.util.Comandi;
 
 import boundary.BoundaryBasicResponse;
 import boundary.BoundaryGestioneNotifica;

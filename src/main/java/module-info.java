@@ -1,14 +1,14 @@
-module com.app.progettoispw202324 {
+module com.app.ispw2025 {
     requires javafx.controls;
     requires javafx.fxml;
     requires log4j.api;
     requires java.sql;
 
 
-    opens com.app.progettoispw202324 to javafx.fxml;
-    exports com.app.progettoispw202324;
-    exports com.app.progettoispw202324.util;
-    opens com.app.progettoispw202324.util to javafx.fxml;
-    exports com.app.progettoispw202324.allertbox;
-    opens com.app.progettoispw202324.allertbox to javafx.fxml;
+    opens com.app.ispw2025 to javafx.fxml;
+    exports com.app.ispw2025;
+    exports com.app.ispw2025.util;
+    opens com.app.ispw2025.util to javafx.fxml;
+    exports com.app.ispw2025.allertbox;
+    opens com.app.ispw2025.allertbox to javafx.fxml;
 }

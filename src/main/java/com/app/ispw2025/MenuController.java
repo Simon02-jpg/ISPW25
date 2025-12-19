@@ -1,9 +1,9 @@
-package com.app.progettoispw202324;
+package com.app.ispw2025;
 
 import boundary.BoundaryBasicController;
 import boundary.BoundaryBasicResponse;
 import boundary.BoundaryLogin;
-import com.app.progettoispw202324.allertbox.AllertBox;
+import com.app.ispw2025.allertbox.AllertBox;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

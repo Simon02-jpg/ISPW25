@@ -1,8 +1,8 @@
-package com.app.progettoispw202324.util;
+package com.app.ispw2025.util;
 
 import boundary.BoundaryBasicController;
 import boundary.BoundaryUserControl;
-import com.app.progettoispw202324.*;
+import com.app.ispw2025.*;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;

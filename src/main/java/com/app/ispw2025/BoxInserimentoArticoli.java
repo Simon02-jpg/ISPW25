@@ -1,4 +1,4 @@
-package com.app.progettoispw202324;
+package com.app.ispw2025;
 
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
