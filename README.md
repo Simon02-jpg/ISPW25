@@ -1,1 +1,1 @@
-Questo è il progetto per l'anno accademico 2023-24
+Progetto per anno 2025-2026
