@@ -13,7 +13,7 @@ version: "1.0"
 profile:
   name: qodana.starter
 
-#Enable inspection
+#Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
 
