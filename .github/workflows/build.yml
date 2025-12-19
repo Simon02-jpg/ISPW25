@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches:
-      - com.app.progettoispw202324.main
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
